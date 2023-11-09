@@ -9,7 +9,7 @@ public class reversearray {
         return array;
     }
     public static void main(String args[]){
-        int array[] ={1,4,7,11,13};
+        int array[] ={1,4,7,11};
         int reversearray[] = getReverse(array,array.length);
         for(int i = 0 ; i<reversearray.length; i++){
             System.out.print(reversearray[i]+"  ");
